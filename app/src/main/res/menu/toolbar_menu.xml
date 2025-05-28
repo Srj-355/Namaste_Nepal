@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/settings"
+        android:title="settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/person"
+        android:icon="@drawable/ic_action_person"
+        android:title="person"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/project"
+        android:icon="@drawable/project"
+        android:title="project"
+        app:showAsAction="ifRoom" />
+</menu>
